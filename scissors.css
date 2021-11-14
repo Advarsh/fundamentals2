@@ -2,4 +2,42 @@ body{
   text-align: center;
     background-color: #ffb99a;
     font-family: 'Shadows Into Light', cursive;
-    background: url(https://a99d9b8
+    background: url(https://a99d9b8…-96c6baa….ssl.cf1.rackcdn.com/images/cast-iron-smoking.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+h1{
+  font-size: 50px;
+  color: #851d41;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+h1:hover{
+  color:blue;
+}
+
+img:hover{
+  background-color: blue;
+}
+
+.bacon {
+  background-color: red;
+}
+
+.broccoli {
+  background-color: green;
+}
+
+.circular{
+  border-radius: 100;
+}
+
+#bro {
+  background-color: red;
+  animation-name: bacon;
+  animation-duration: 3s;
+}
+#bro:hover{
+  background-color: gold;
+}
